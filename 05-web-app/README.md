@@ -3,11 +3,11 @@
 ## Описание окружения <a id="environment"/></a>
 
 1. Для вас развёрнуто рабочее окружение в Yandex Cloud:
-* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scale-N`
+* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scaleN`
 * [Каталог ресурсов](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#folder) `default`
 
 2. Доступ к облаку и каталогу будет предоставлен с помощью аутентификации через федерацию удостоверений. 
-Учетные данные для аутентификации - имя пользователя вида `scale2025-N` и пароль будут предоставлены через бот.
+Учетные данные для аутентификации - имя пользователя вида `scaleN` и пароль будут предоставлены через бот.
 
 ## Задание <a id="task"/></a>
 
@@ -45,8 +45,4 @@ curl http://<публичный-ip-адрес-приложения>
 yc load-balancer target-group get ...
 ```
 
-После самостоятельного успешного выполнения проверок можно отправлять это задание на проверку с помощью бота следующим образом:
-
-```
-/check 5
-```
+После этого можно отправить задание на проверку нажав кнопку в боте.
