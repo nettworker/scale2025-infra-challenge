@@ -3,13 +3,13 @@
 ## Описание окружения <a id="environment"/></a>
 
 1. Для вас развёрнуто рабочее окружение в Yandex Cloud:
-* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scale-N`
+* [Облако](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#cloud) `scaleN`
 * [Каталог ресурсов](https://yandex.cloud/ru/docs/resource-manager/concepts/resources-hierarchy#folder) `default`
 * [Сервер BareMetal](https://yandex.cloud/docs/baremetal) в каталоге ресурсов
 * [Секрет Lockbox](https://yandex.cloud/ru/docs/lockbox/concepts/secret) для доступа через консоль к серверу Baremetal
 
 2. Доступ к облаку и каталогу будет предоставлен с помощью аутентификации через федерацию удостоверений. 
-Учетные данные для аутентификации - имя пользователя вида `scale2025-N` и пароль будут предоставлены через бот.
+Учетные данные для аутентификации - имя пользователя вида `scaleN` и пароль будут предоставлены через бот.
 
 ## Задание <a id="task"/></a>
 
@@ -38,8 +38,4 @@ curl http://<публичный-ip-сервера>:8080
 
 Критерий успеха - это получение в ответе сервера строки с его именем (`hostname`).
 
-После этого можно отправить задание на проверку с помощью бота следующим образом:
-
-```
-/check 3
-```
+После этого можно отправить задание на проверку нажав кнопку в боте.
